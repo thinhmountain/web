@@ -1,0 +1,129 @@
+@media screen and (max-width: 768px) {
+    .item {
+      flex: 0 0 50%; /* Adjusted width: 50% */
+    }
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+  }
+  
+  .menu div {
+    display: inline-block;
+  }
+  
+  .option:hover {
+    text-decoration: underline;
+    text-decoration-color: #EEB506;
+  }
+  .menubar div {
+    color:black;
+    padding: 12px 24px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight:700;
+    cursor: pointer;
+  }
+  
+  .menubar {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 160px;
+    top:30px;
+  
+  }
+  
+  .save, .adopt {
+    background-color: #EEB506;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .save:hover, .adopt:hover {
+    opacity: 50%;
+  }
+  
+  .logo1 {
+    height: 83px;
+    min-width: 65px;
+    object-fit: cover;
+    position:absolute;
+    left: 160px;
+  }
+  
+  
+  .petinfo {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 300px;
+    left:160px;
+    right: 160px;
+  }
+  
+  .pic1 div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .smallpic {
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+  }
+  
+  .small {
+    background-position: 50% 50%;
+    object-fit: cover;
+    height: 100px;
+    min-width: 135px;
+    border-radius: 16px;
+    position: relative;
+    padding-top: 8px;
+  }
+  .bigpic {
+    size: 30%;
+  }
+  
+  .info {
+    position: relative;
+    left: 90px;
+  }
+  
+  .name {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bolder;
+    color: #1509A4;
+    font-size:30px;
+    margin: 0px;
+  }
+  
+  .male {
+    font-family: 'Be Vietnam Pro', sans-serif;
+  }
+  
+  .Consider {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  
+  .footer {
+    align-items: center;
+    position:relative;
+    top: 1000px;
+    border-color: #1509A4;
+  }
+  
+  .footerframe {
+    display: flex;
+    flex-direction: row;
+  }
