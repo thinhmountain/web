@@ -5,23 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>baitap-figma</title>
-    <link rel="stylesheet" type="text/css" href="/in4_pet/style.css">
+    <link rel="stylesheet" type="text/css" href="PetInfo.css">
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/webb/style.css">
 
 <body>
     <section class="menu">
     <div class="header frame">
-        <div onclick="window.location.href='/webb/homepage.html'" class="logo">
-            <img class="logo1" src="/in4_pet/rectangle-418@2x.png" alt="logo">
+        <div class="logo">
+            <img class="logo1" src="images/rectangle-416@2x.png" alt="logo">
         </div>
         <div class="menubar">
          <div class="option">Adoptions</div>
          <div class="option">Funding</div>
          <div class="option">Contact</div>
-         <div class="option">About us</div>
+         <div class="option" onclick="window.location.href='about_us/index.html'">About us</div>
          <div class="button">
-         <button class="save">SAVE LIFE NOW</button> 
+         <button class="save" onclick="window.location.href='donate/index.html'">SAVE LIFE NOW</button> 
         </div></div>
     </div>
     </section>
@@ -29,32 +28,34 @@
     <section class="petinfo">
         <div class="image">
             <div class="pic1">
-                <img class="bigpic" src="/in4_pet/rectangle-420-2@2x.png" alt="PIC11">
+                <img class="bigpic" src="images/rectangle-420-2@2x.png" alt="PIC11">
             </div>
             <div class="smallpic">
-                <img class="small" src="/in4_pet/rectangle-420-3@2x.png" alt="PIC11">
-                <img class="small" src="/in4_pet/rectangle-415-1.jpg" alt="PIC11">
+                <img class="small" src="images/rectangle-420-3@2x.png" alt="PIC11">
+                <img class="small" src="images/rectangle-415-1.jpg" alt="PIC11">
             </div>
         </div>
         <div class="info" >
             <h2 class="name"><b>Captain</b></h2>
             <p class="male">Male<br/>Aldult<br/>He loves to play</p>
             <h3 class="Consider">Considering Captain for adoption?</h3>
-            <button onclick="window.location.href='/adopt_form'" class="adopt">Start your inquiry</button>
+            <button class="adopt" onclick="window.location.href='adopt_form/index.html'">Start your inquiry</button>
 
         </div>
     </section>
-    <section class="footer">
-        <div class="footer_2">
-            <img class="footer_2_img" src="/webb/Rectangle 421.png" alt="">
-           <address style="font-family: 'Be Vietnam Pro', sans-serif;">
-            <Span style=" font-size: 30px; font-weight: bolder; font-family: 'Be Vietnam Pro', sans-serif;"> Contact:</Span> <br>
-            Address: 1 Trần Hưng Đạo, phường 1, quận 1 <br>
-            Sđt: 0123456789 <br>
-            Gmail: abc@gmail.com
-          </address>
-          <div style="color: black;" class="cta">SIGN UP</button>
-          </div>
+    <div class="footer" >
+        <dic class="logoend" id="contact">
+            <img class="footerlogo" src="images/rectangle-416@2x.png" alt="logo">
+        </dic>
+        <div class="sdt">
+          <h3 class="title2" > Contact:</h1> 
+           Address: 1 Trần Hưng Đạo, phường 1, quận 1 <br>
+           Sđt: 0123456789 <br>
+           Gmail: abc@gmail.com
         </div>
-    </section>
+        <div class="donate">
+          <h3 class="title2">Fund for us to gain more strength:</h1>
+          <button class="yes">Yes, I want to donate</button>
+        </div>
+     </div>
 </body>
