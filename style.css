@@ -3,7 +3,7 @@
     
     height: 659px;
     border: 2px solid gray;
-    background-image: url(/webb/Rectangle\ 417.png);
+    background-image: url(webb/Rectangle\ 417.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -16,6 +16,10 @@
     z-index: 1;
     color: white;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+
+.wa{
+    cursor: pointer;
 }
 
 .logo {
@@ -153,7 +157,7 @@
 .img_pets{
     display: flex;
     justify-content: space-between;
-    
+    margin-top: 100px;
     
 
 
